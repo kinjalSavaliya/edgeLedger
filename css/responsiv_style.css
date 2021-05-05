@@ -1,0 +1,94 @@
+.nav_container{
+    flex-direction: column;
+   
+}
+#navigationbar_container .background{
+    height: 120px;
+}
+#navigationbar_container .nav_container .menu_container .menu{
+    margin:auto;
+    margin-top: 10px;
+}
+#navigationbar_container .nav_container .menu_container .menu li a{
+    padding: 0px;
+}
+#slide_container{
+    top: 30vh;
+    right: 10vw;
+    margin-left: 60px;
+    text-align: center;
+}
+#icon_container{
+    flex-direction: column;
+}
+#images1_container{
+    flex-direction: column;
+    height: 700px;
+}
+#images1_container .image_1{
+    width:100%;
+    height:50%;
+}
+#images1_container .image_2{
+    width:100%;
+    padding: 10px 30px;
+    height:50%;
+}
+#cases_container .case_2{
+    flex-direction: column;
+    height:1800px;
+    flex-wrap:nowrap;
+}
+#cases_container .case_2 .cases{
+    width: 100%;
+}
+#cases_container .case_2 .cases img{
+    width: 100%;
+    height: 100%;
+} 
+#blog_container{
+    flex-direction: column;
+    height: 700px;
+}
+#blog_container .blog_1{
+    width: 100%;
+}
+#blog_container .blog_2{
+    width: 100%;
+}
+#team_container{
+    height:1050px;
+}
+#team_container .team_images{
+    flex-direction: column;
+    align-items: center;
+    height:360px;
+    gap:50px;
+}
+#team_container .team_images .teams_images {
+    width: 50%;
+    height: 60%;
+} 
+#team_container .team_content{
+    height: 38%;
+    padding: 0 20px;
+}
+#team_container .team_images .teams_images img{
+    height: 80%;
+}
+#contact_container{
+    flex-direction: column;
+    height:750px;
+}
+#contact_container .contact_image{
+    width:100%;
+    height:50%;
+    background-position: bottom;
+    background-size: cover;
+}
+#contact_container .contact_details{
+    width:100%;
+    height:50%;
+}
+
+
